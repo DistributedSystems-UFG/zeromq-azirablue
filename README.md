@@ -29,9 +29,9 @@ zeromq-final/
 Edite `config.py` com os IPs públicos das suas instâncias EC2:
 
 ```python
-MACHINE_A = "SEU_IP_A"   # server / publisher / producer (Server)
-MACHINE_B = "SEU_IP_B"   # client / subscriber / middle (Peer1)
-MACHINE_C = "SEU_IP_C"   # consumer final (Peer2)
+MACHINE_A = "SEU_IP_A"   # (Server)
+MACHINE_B = "SEU_IP_B"   # (Peer1)
+MACHINE_C = "SEU_IP_C"   # (Peer2)
 
 PORT_1 = "5678"
 PORT_2 = "5679"
