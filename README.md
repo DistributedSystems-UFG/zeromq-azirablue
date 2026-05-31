@@ -16,7 +16,7 @@ zeromq-final/
 ├── pub-sub/
 │   ├── publisher.py            Máquina A
 │   └── subscriber.py           Máquina B (ou C)
-└── pipeline/
+└── pipeline_producer-consumer/
     ├── producer.py             Máquina A  (estágio 1)
     ├── middle.py               Máquina B  (estágio 2 - consumer/producer)
     └── consumer.py             Máquina C  (estágio 3)
